@@ -12,10 +12,9 @@
 # n..m: Un rango específico, por ejemplo, 2..4 indica entre dos y cuatro instancias.
 
 
-
-
-# Desafío. Realiza el diagrama de clases identificando relaciones de herencia, composición y/o agregación o uso:
+# 4- Desafío. Realiza el diagrama de clases identificando relaciones de herencia, composición y/o agregación o uso:
 
 # ● Software de gestión de personal, cada Empleado tiene un Rol. El empleado
 # no puede existir sin tener un rol asignado.
 
+# https://lucid.app/lucidchart/9c5d8844-960a-4c1a-8456-8db66e42349b/edit?viewport_loc=-1322%2C-314%2C1293%2C489%2C0_0&invitationId=inv_a74d8800-144e-4a35-9d87-3569228a64aa

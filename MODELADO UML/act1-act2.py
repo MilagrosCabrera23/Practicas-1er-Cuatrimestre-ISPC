@@ -4,8 +4,8 @@
 # identificando atributos, métodos y sus correspondientes modificadores de
 # acceso.
 
-#RESPUESTA/IMG DEL MODELADO:
-# https://lucid.app/lucidchart/9e89048d-070b-45bd-8f05-1131ad84de9f/edit?invitationId=inv_b9c8a111-aded-476f-95f3-2effa052c38f&page=HWEp-vi-RSFO
+# https://lucid.app/lucidchart/9e89048d-070b-45bd-8f05-1131ad84de9f/edit?viewport_loc=-563%2C31%2C2734%2C922%2CHWEp-vi-RSFO&invitationId=inv_b9c8a111-aded-476f-95f3-2effa052c38f
+
 
 #2- Desafío. ¿Es posible heredar de múltiples clases base? Investiga e
 # identifica ejemplos.

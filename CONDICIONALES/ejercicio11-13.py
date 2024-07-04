@@ -33,9 +33,7 @@ def jugar():
     while max(marcador) < 3:
         
 #         \n: Añadirá una nueva línea antes del texto.
-# --- Ronda: Imprimirá --- Ronda.
 # rondas + 1: Evaluará 0 + 1, que es 1, así que imprimirá 1.
-# ---: Imprimirá ---.
         print("\n--- Ronda", rondas + 1, "---")
         
         # Obtener jugadas de los jugadores
@@ -57,7 +55,7 @@ def jugar():
         print(f"Marcador: Jugador 1 - {marcador[0]}, Jugador 2 - {marcador[1]}")
         
         rondas += 1
-    
+        
     # Determinar ganador del juego
     if marcador[0] == 3:
         print("¡Jugador 1 ha ganado el juego!")
@@ -67,7 +65,6 @@ def jugar():
 # Llamar a la función principal para iniciar el juego
 if __name__ == "__main__":
     jugar()
-
 
 # 12- Torneo de Tenis. Escriba un programa para simular un campeonato de tenis.
 # Primero, debe pedir al usuario que ingrese los nombres de ocho tenistas. A continuación,
@@ -88,38 +85,33 @@ return nombres_tenistas
 
 def pedir_resultados(nombres_tenistas):
     
-  while 
-        
 
 # 13- El diccionario países asocia cada persona con el conjunto de los países que ha
 # visitado:
 #     Escriba una función cuantos_en_comun(a, b), que indique cuántos países en común han
 # visitado la persona a y la persona b:
-    
+    paises = {
+      "Juan": {"Argentina", "Brasil", "Croacia", "Japon"},
+      "Leila": {"Francia", "Brasil", "Japon", "Alemania"}, 
+      "Franco": {"Brasil", "Japon", "Inglaterra","Corea del Sur"}, 
+      "Gisel":{"Suecia", "Francia", "Croacia", "Brasil"}
+  }  
 
-# 14- Signo zodiacal. El signo zodiacal de una persona está determinado por su día de
-# nacimiento.
-# El diccionario de signos asocia a cada signo el período del año que le corresponde. Cada
-# período es una tupla con la fecha de inicio y la fecha de término, y cada fecha es una
-# tupla (mes, dia):
-#   Escriba la función determinar_signo(fecha_de_nacimiento) que reciba como
-# parámetro la fecha de nacimiento de una persona, representada como una tupla (año,
-# mes, dia), y que retorne el signo zodiacal de la persona:
+def cuantas_en_comun(a,b):
+    if a not in paises or b not in paises: 
+        return 0
     
+     # Encuentra los países en común usando la intersección de conjuntos,Usa el método .intersection() de los conjuntos para encontrar los países comunes entre las dos personas.
+    paises_comunes = paises[a].intersection(paises[b])
+  
     
-    
-    
-# 15- Autores de Libros. Este problema apareció en el certamen 2 del segundo semestre de
-# 2011 en el campus Vitacura.
-# Escriba las funciones necesarias para que el siguiente programa funcione:  
-    
+# Devuelve la longitud del conjunto resultante, que representa el número de países en común.
+    return len(paises_comunes)
 
-# 16- Código Morse. Crea un programa que sea capaz de transformar texto natural a
-# código morse y viceversa.
-# Debe detectar automáticamente de qué tipo se trata y realizar la conversión.
-# ● En morse se soporta raya "—", punto ".", un espacio " " entre letras o símbolos y dos
-# espacios entre palabras " ".
-# ● El alfabeto morse soportado será el mostrado en
-# https://es.wikipedia.org/wiki/Código_morse
-    
-    
+#Ejemplo: 
+persona_a = "Juan"
+persona_b = "Leila"
+
+print(f"Países en común entre {persona_a} y {persona_b}: {cuantas_en_comun(persona_a, persona_b)}")
+
+
