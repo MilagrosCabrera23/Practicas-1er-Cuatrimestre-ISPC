@@ -13,7 +13,7 @@ Este repositorio contiene las primeras prácticas del cuatrimestre realizadas en
 
 ## Authors
 
-- [@milagroscabrera23]https://github.com/MilagrosCabrera23)
+- [@maguicabrera23]https://github.com/MilagrosCabrera23)
 
 
 
