@@ -1,7 +1,7 @@
 
 # Practicas 1er Cuatrimestre - ISPC 
 
-Este repositorio contiene las primeras prácticas del cuatrimestre realizadas en el curso de Desarrollo de Software. Los ejercicios están diseñados para familiarizarse con los conceptos básicos de Python y su aplicación en diversas problemáticas.
+Este repositorio contiene las primeras prácticas del cuatrimestre realizadas en la tecnicatura de Desarrollo de Software. Los ejercicios están diseñados para familiarizarse con los conceptos básicos de Python y su aplicación en diversas problemáticas.
 
 
 ## El repositorio está organizado en carpetas, cada una correspondiente a una práctica diferente.
